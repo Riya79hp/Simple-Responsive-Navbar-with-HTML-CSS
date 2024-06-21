@@ -40,27 +40,20 @@ body {
   margin: 0 auto;
 }
 
-.logo {
 
-}
 
 .logo__img {
   height: 20px;
   display: block;
 }
 
-.nav {
-
-}
 
 .nav__list {
   display: flex;
   column-gap: 40px;
 }
 
-.nav__item {
 
-}
 
 .nav__link {
   color: rgba(255, 255, 255, 0.75);
@@ -108,6 +101,12 @@ body {
 
 /* MEDIA QUERIES */
 @media (max-width: 650px) {
+  .header{
+    width:100%;
+  }
+  .logo_img{
+    height:30px;
+  }
   .header__content {
     flex-direction: column;
     align-items: center;
